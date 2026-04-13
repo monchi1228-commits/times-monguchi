@@ -1,0 +1,39 @@
+# Dependencies & build
+node_modules/
+dist/
+build/
+.next/
+out/
+.turbo/
+.cache/
+*.tsbuildinfo
+
+# Environment & secrets
+.env
+.env.*
+!.env.example
+*.pem
+secrets/
+
+# OS & IDE
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.idea/
+.vscode/*
+!.vscode/extensions.json
+
+# Claude Code (local overrides — never commit)
+.claude/settings.local.json
+CLAUDE.local.md
+
+# Logs & temp
+*.log
+tmp/
+temp/
+coverage/
+.nyc_output/
+
+# Optional: lock local Cursor state if present
+.cursor/*.log

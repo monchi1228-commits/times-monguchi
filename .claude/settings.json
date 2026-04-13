@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-settings.json",
+  "language": "japanese",
+  "includeGitInstructions": true,
+  "permissions": {
+    "deny": [
+      "Read(./.env)",
+      "Read(./.env.*)",
+      "Read(./secrets/**)"
+    ]
+  },
+  "companyAnnouncements": [
+    "プロジェクト方針は AGENTS.md / CLAUDE.md と .cursor/rules を参照してください。",
+    "個人用の上書きは .claude/settings.local.json（Git 対象外）に置いてください。"
+  ]
+}

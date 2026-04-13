@@ -1,0 +1,10 @@
+# Large / generated paths (adjust when stack is chosen)
+node_modules/
+dist/
+build/
+.next/
+out/
+.git/
+coverage/
+*.min.js
+*.min.css

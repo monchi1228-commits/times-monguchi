@@ -1,0 +1,11 @@
+---
+description: Align with AGENTS.md and CLAUDE.md for Cursor + Claude Code
+alwaysApply: true
+---
+
+# 共通方針（Cursor / Claude Code）
+
+- 詳細はリポジトリ直下の **`AGENTS.md`** を参照。Claude Code 用のエントリは **`CLAUDE.md`**（本質的には **`AGENTS.md`** と整合）。
+- ユーザーの明示指示が最優先。依頼範囲外のリファクタや無関係ファイルの変更はしない。
+- 説明・要約は日本語でよい。コードの識別子・コメントは既存スタイルに合わせる。
+- `.env`・秘密情報をコードやログに含めない。
