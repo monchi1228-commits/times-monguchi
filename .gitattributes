@@ -1,0 +1,21 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+
+# Markdown
+*.md text diff=markdown eol=lf
+
+# Shell scripts
+*.sh text eol=lf
+
+# Config files
+*.json text eol=lf
+*.yaml text eol=lf
+*.yml text eol=lf
+*.toml text eol=lf
+
+# EditorConfig
+.editorconfig text eol=lf
+
+# Ignore generated files in GitHub language statistics
+.cursor/** linguist-generated
+.claude/** linguist-generated
